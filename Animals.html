@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animals</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">Home</a>
+        <a class="active" href="Animals.html">Animals</a>
+        <a href="">Attractions</a>
+        <a href="">Employees</a>
+        <a href="">Enclosures</a>
+        <a href="">Food</a>
+        <a href="">Medication</a>
+    </div>
+
+    <br><br>
+    <br><br>
+    <h2>What would you like to do:</h2>
+
+    <button id="searchAnimalButton" class="button"><span>Search for Animal</span></button>
+    <script type="text/javascript">
+        document.getElementById("searchAnimalButton").onclick = function () {
+            // Link to animal search page
+        };
+    </script>
+
+    <button id="addAnimalButton" class="button"><span>Add Animal</span></button>
+    <script type="text/javascript">
+        document.getElementById("addAnimalButton").onclick = function () {
+            // Link to animal add page
+        };
+    </script>
+
+
+
+    <button id="deleteAnimalButton" class="button"><span>Delete Animal</span></button>
+    <script type="text/javascript">
+        document.getElementById("deleteAnimalButton").onclick = function () {
+            // Link to animal delete page
+        };
+    </script>
+    <br><br>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
